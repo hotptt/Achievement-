@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "인생 업적 기록",
+    "slug": "life-achievements",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0b0c"
+    },
+    "androidStatusBar": {
+      "hidden": true,
+      "translucent": true,
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "package": "com.jihun.lifeachievements",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0b0b0c"
+      },
+      "permissions": []
+    },
+    "ios": {
+      "supportsTablet": false
+    }
+  }
+}
