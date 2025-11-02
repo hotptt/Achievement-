@@ -1,19 +1,13 @@
 {
-  "cli": {
-    "version": ">= 3.13.0"
-  },
+  "cli": { "version": ">= 6.0.0" },
   "build": {
     "preview": {
-      "developmentClient": false,
-      "distribution": "internal",
-      "env": {
-        "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
-      }
+      "android": { "buildType": "apk" },
+      "env": { "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64" }
     },
     "production": {
-      "env": {
-        "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
-      }
+      "android": { "buildType": "app-bundle" },
+      "env": { "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64" }
     }
   }
 }
