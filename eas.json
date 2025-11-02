@@ -1,16 +1,18 @@
 {
   "cli": {
-    "version": ">= 11.0.0"
+    "version": ">= 3.13.0"
   },
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk"
+        "image": "latest",
+        "jdk": "17"
       }
     },
     "production": {
       "android": {
-        "gradleCommand": ":app:bundleRelease"
+        "image": "latest",
+        "jdk": "17"
       }
     }
   }
