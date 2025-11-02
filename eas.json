@@ -4,15 +4,15 @@
   },
   "build": {
     "preview": {
-      "android": {
-        "image": "latest",
-        "jdk": "17"
+      "developmentClient": false,
+      "distribution": "internal",
+      "env": {
+        "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
       }
     },
     "production": {
-      "android": {
-        "image": "latest",
-        "jdk": "17"
+      "env": {
+        "EXPO_JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
       }
     }
   }
